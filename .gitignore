@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Environment
 .env
 .venv/
@@ -186,33 +187,42 @@ activemq-data/
 *.sage.py
 
 # Environments
+=======
+# Environment
+>>>>>>> fe2680986bbe16d745699295e28c7f5c72821e37
 .env
-.envrc
-.venv
-env/
+.venv/
 venv/
-ENV/
-env.bak/
-venv.bak/
+env/
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
 
-# Rope project settings
-.ropeproject
+# Storage — real data never goes in git
+storage/users/*.json
+storage/secrets/
+storage/shares/
+storage/audit/
 
-# mkdocs documentation
-/site
+# VS Code
+.vscode/
+*.code-workspace
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# pytest
+.pytest_cache/
+htmlcov/
+.coverage
 
-# Pyre type checker
-.pyre/
+# Distribution
+dist/
+build/
+*.egg-info/
 
+<<<<<<< HEAD
 # pytype static type analyzer
 .pytype/
 
@@ -255,3 +265,8 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 >>>>>>> 3dd5f60e4528558aaa06fdf6c447f243e6e348dc
+=======
+# OS
+.DS_Store
+Thumbs.db
+>>>>>>> fe2680986bbe16d745699295e28c7f5c72821e37
